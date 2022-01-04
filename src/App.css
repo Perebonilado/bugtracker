@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    padding: 3rem ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding: 1rem 3rem;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: .4rem;
+}
+
+form input, form select {
+    margin-bottom: 1rem;
+    padding: .3rem;
+    outline: none;
+    border: none;
+}
+
+form button {
+    width: 7rem;
+    padding: .2rem 0;
+    color: #fff;
+    background-color: rgb(24, 103, 129);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.bug {
+    background-color: gainsboro;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+}
+
+.close, .delete {
+    border: none;
+    background-color: orange;
+    color: #fff;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: crimson;
+}
+
+.modal {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    padding: .5rem 0;
+    border-radius: .3rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.success {
+    background-color: rgba(31, 209, 31, 0.281);
+}
+
+.error {
+    background-color: rgba(190, 46, 46, 0.26);
+}
+
+.status {
+    padding: .3rem .6rem;
+    background-color: darkcyan;
+    border-radius: .3rem;
+    margin-left: .3rem;
+    color: #fff;
+}
